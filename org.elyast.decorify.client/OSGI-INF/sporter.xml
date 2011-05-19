@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" activate="start" deactivate="stop" immediate="true" modified="modified" name="com.github.elyast.guids.client">
+   <implementation class="com.github.elyast.guids.client.Sporter"/>
+   <service>
+      <provide interface="com.github.elyast.guids.client.Sport"/>
+   </service>
+   <property name="service.exported.interfaces" type="String" value="*"/>
+   <property name="service.exported.configs" type="String" value="noconfig"/>
+</scr:component>

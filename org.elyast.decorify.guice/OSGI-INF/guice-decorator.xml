@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" immediate="true" name="org.elyast.decorify.guice.decorator">
+   <implementation class="org.elyast.decorify.guice.GuiceServiceDecorator"/>
+   <service>
+      <provide interface="org.elyast.decorify.core.ServiceDecorator"/>
+   </service>
+   <property name="filter" type="String" value="(objectClass=*)"/>
+</scr:component>

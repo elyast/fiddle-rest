@@ -1,0 +1,834 @@
+[org.eclipse.equinox.weaving.hook] info adding AspectJ hooks ...
+
+osgi> 155  [Start Level Event Dispatcher] INFO  org.apache.camel.impl.osgi.Activator - Camel activator starting
+238  [Start Level Event Dispatcher] INFO  org.apache.camel.impl.osgi.Activator - Camel activator started
+!SESSION 2011-05-13 15:04:25.542 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_24
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Command-line arguments:  -dev file:/Users/lukaszjastrzebski/work/lemac/.metadata/.plugins/org.eclipse.pde.core/lemac on Features/dev.properties -os macosx -ws cocoa -arch x86_64 -consoleLog -console
+
+!ENTRY org.eclipse.core.net 1 0 2011-05-13 15:04:28.158
+!MESSAGE System property http.proxyHost has been set to 10.144.1.10 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.net 1 0 2011-05-13 15:04:28.159
+!MESSAGE System property http.proxyPort has been set to 8080 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.net 1 0 2011-05-13 15:04:28.159
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16|127.0.0.1|localhost|*.localhost|0.0.0.0|myvoippassword.nsn-net.net|*.myvoippassword.nsn-net.net by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.net 1 0 2011-05-13 15:04:28.160
+!MESSAGE System property https.proxyHost has been set to 10.144.1.10 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.net 1 0 2011-05-13 15:04:28.161
+!MESSAGE System property https.proxyPort has been set to 8080 by an external source. This value will be overwritten using the values from the preferences
+[org.eclipse.equinox.weaving.aspectj] info Starting AspectJ weaving service ...
+[org.eclipse.equinox.weaving.caching] info starting standard caching service ...
+[org.eclipse.equinox.weaving.caching.j9] warning cannot start J9 caching service
+jettyetc=etc/jetty.xml
+Configuring jetty with the default embedded configuration:bundle: org.eclipse.jetty.osgi.boot config: /jettyhome/etc/jetty-osgi-default.xml
+2897 [Start Level Event Dispatcher] INFO  org.eclipse.jetty.util.log.Slf4jLog - Configuring the default jetty server with bundleentry://236.fwk1984526644/jettyhome/etc/jetty-osgi-default.xml
+2960 [Start Level Event Dispatcher] INFO  org.eclipse.jetty.util.log.Slf4jLog - jetty-7.4.0.v20110414
+2983 [Start Level Event Dispatcher] INFO  org.eclipse.jetty.util.log.Slf4jLog - Deployment monitor /Users/lukaszjastrzebski/Programs/eclipse3.7M6/Eclipse.app/Contents/MacOS/contexts at interval 5
+3009 [Start Level Event Dispatcher] INFO  org.eclipse.jetty.util.log.Slf4jLog - Started SelectChannelConnector@0.0.0.0:8080 STARTING
+3069 [Start Level Event Dispatcher] INFO  org.eclipse.jetty.util.log.Slf4jLog - Deployable added: org.eclipse.jetty.osgi.httpservice-7.4.0.v20110414/contexts/httpservice.xml
+3103 [Start Level Event Dispatcher] INFO  org.eclipse.jetty.util.log.Slf4jLog - started o.e.j.s.ServletContextHandler{/,null}
+
+!ENTRY com.github.elyast.lemac.core 4 0 2011-05-13 15:04:30.457
+!MESSAGE [SCR - Resolver] Cannot specify both ComponentFactory and ManagedServiceFactory
+The name of the ComponentFactory component is com.github.elyast.lemac.core
+
+!ENTRY com.github.elyast.lemac.core 4 0 2011-05-13 15:04:30.459
+!MESSAGE [SCR - Resolver] Cannot specify both ComponentFactory and ManagedServiceFactory
+The name of the ComponentFactory component is com.github.elyast.lemac.core
+3199 [Start Level Event Dispatcher] INFO  org.ops4j.pax.configmanager.internal.ConfigurationAdminFacade - System property [bundles.configuration.location] is not defined.
+3200 [Start Level Event Dispatcher] INFO  org.ops4j.pax.configmanager.internal.ConfigurationAdminFacade - Using default configurations location [configurations].
+3200 [Start Level Event Dispatcher] INFO  org.ops4j.pax.configmanager.internal.ConfigurationAdminFacade - Using configuration from [configurations]
+3200 [Start Level Event Dispatcher] ERROR org.ops4j.pax.configmanager.internal.ConfigurationAdminFacade - Configuration area [/Users/lukaszjastrzebski/Programs/eclipse3.7M6/Eclipse.app/Contents/MacOS/configurations] does not exist. Unable to load properties.
+3201 [Start Level Event Dispatcher] INFO  org.ops4j.pax.configmanager.internal.ConfigurationAdminFacade - System property [bundles.configuration.location] is not defined.
+3201 [Start Level Event Dispatcher] INFO  org.ops4j.pax.configmanager.internal.ConfigurationAdminFacade - Using default configurations location [configurations].
+3201 [Start Level Event Dispatcher] INFO  org.ops4j.pax.configmanager.internal.ConfigurationAdminFacade - Using configuration from [configurations]
+3201 [Start Level Event Dispatcher] ERROR org.ops4j.pax.configmanager.internal.ConfigurationAdminFacade - Configuration area [/Users/lukaszjastrzebski/Programs/eclipse3.7M6/Eclipse.app/Contents/MacOS/configurations] does not exist. Unable to load properties.
+All Components:
+ID	State			Component Name			Located in bundle
+1	Active		factoryinjection.component			org.apache.ws.commons.axiom.axiom-api(bid=128)
+2	Active		metafactory.llom.component			org.apache.ws.commons.axiom.axiom-impl(bid=129)
+3	Registered		org.eclipse.equinox.coordinator			org.eclipse.equinox.coordinator(bid=168)
+4	Active		org.eclipse.equinox.event			org.eclipse.equinox.event(bid=171)
+5	Registered		org.eclipse.equinox.frameworkadmin.equinox			org.eclipse.equinox.frameworkadmin.equinox(bid=173)
+6	Active		org.eclipse.equinox.p2.artifact.repository			org.eclipse.equinox.p2.artifact.repository(bid=181)
+7	Active		org.eclipse.equinox.p2.core.eventbus			org.eclipse.equinox.p2.core(bid=183)
+8	Active		org.eclipse.equinox.p2.di.agentProvider			org.eclipse.equinox.p2.core(bid=183)
+9	Registered		org.eclipse.equinox.p2.director			org.eclipse.equinox.p2.director(bid=184)
+10	Registered		org.eclipse.equinox.p2.planner			org.eclipse.equinox.p2.director(bid=184)
+11	Active		org.eclipse.equinox.p2.engine.registry			org.eclipse.equinox.p2.engine(bid=189)
+12	Registered		org.eclipse.equinox.p2.engine			org.eclipse.equinox.p2.engine(bid=189)
+13	Registered		org.eclipse.equinox.p2.garbagecollector			org.eclipse.equinox.p2.garbagecollector(bid=191)
+14	Active		org.eclipse.equinox.p2.metadata.repository			org.eclipse.equinox.p2.metadata.repository(bid=194)
+15	Registered		org.eclipse.equinox.p2.repository			org.eclipse.equinox.p2.repository(bid=200)
+16	Registered		org.eclipse.equinox.p2.transport.ecf			org.eclipse.equinox.p2.transport.ecf(bid=204)
+17	Registered		org.eclipse.equinox.p2.updatechecker			org.eclipse.equinox.p2.updatechecker(bid=205)
+18	Registered		org.eclipse.equinox.simpleconfigurator.manipulator			org.eclipse.equinox.simpleconfigurator.manipulator(bid=213)
+19	Unsatisfied		com.github.elyast.lemac.core			com.github.elyast.lemac.core(bid=279)
+
+osgi> All Components:
+ID	State			Component Name			Located in bundle
+1	Active		factoryinjection.component			org.apache.ws.commons.axiom.axiom-api(bid=128)
+2	Active		metafactory.llom.component			org.apache.ws.commons.axiom.axiom-impl(bid=129)
+3	Registered		org.eclipse.equinox.coordinator			org.eclipse.equinox.coordinator(bid=168)
+4	Active		org.eclipse.equinox.event			org.eclipse.equinox.event(bid=171)
+5	Registered		org.eclipse.equinox.frameworkadmin.equinox			org.eclipse.equinox.frameworkadmin.equinox(bid=173)
+6	Active		org.eclipse.equinox.p2.artifact.repository			org.eclipse.equinox.p2.artifact.repository(bid=181)
+7	Active		org.eclipse.equinox.p2.core.eventbus			org.eclipse.equinox.p2.core(bid=183)
+8	Active		org.eclipse.equinox.p2.di.agentProvider			org.eclipse.equinox.p2.core(bid=183)
+9	Registered		org.eclipse.equinox.p2.director			org.eclipse.equinox.p2.director(bid=184)
+10	Registered		org.eclipse.equinox.p2.planner			org.eclipse.equinox.p2.director(bid=184)
+11	Active		org.eclipse.equinox.p2.engine.registry			org.eclipse.equinox.p2.engine(bid=189)
+12	Registered		org.eclipse.equinox.p2.engine			org.eclipse.equinox.p2.engine(bid=189)
+13	Registered		org.eclipse.equinox.p2.garbagecollector			org.eclipse.equinox.p2.garbagecollector(bid=191)
+14	Active		org.eclipse.equinox.p2.metadata.repository			org.eclipse.equinox.p2.metadata.repository(bid=194)
+15	Registered		org.eclipse.equinox.p2.repository			org.eclipse.equinox.p2.repository(bid=200)
+16	Registered		org.eclipse.equinox.p2.transport.ecf			org.eclipse.equinox.p2.transport.ecf(bid=204)
+17	Registered		org.eclipse.equinox.p2.updatechecker			org.eclipse.equinox.p2.updatechecker(bid=205)
+18	Registered		org.eclipse.equinox.simpleconfigurator.manipulator			org.eclipse.equinox.simpleconfigurator.manipulator(bid=213)
+19	Unsatisfied		com.github.elyast.lemac.core			com.github.elyast.lemac.core(bid=279)
+
+osgi> Configuration list:
+com.github.elyast.lemac.core.factory-1305289951338-0-1305290608865-1
+com.github.elyast.lemac.core-1305290618172-2
+com.github.elyast.lemac.core-1305290501945-2
+com.github.elyast.lemac.core-1305290599855-0
+
+osgi> 
+osgi> 
+!ENTRY com.github.elyast.lemac.core 4 0
+osgi>  2011-05-13 15:05:07.032
+!MESSAGE [SCR - SCRManager] ComponentFactory com.github.elyast.lemac.core cannot be managed using factory configuration!
+
+!ENTRY com.github.elyast.lemac.core 4 0 2011-05-13 15:05:07.032
+!MESSAGE [SCR - SCRManager] ComponentFactory com.github.elyast.lemac.core cannot be managed using factory configuration!
+
+!ENTRY com.github.elyast.lemac.core 4 0 2011-05-13 15:05:17.538
+!MESSAGE [SCR - SCRManager] ComponentFactory com.github.elyast.lemac.core cannot be managed using factory configuration!
+
+osgi> 
+!ENTRY com.github.elyast.lemac.core 4 0 2011-05-13 15:05:17.539
+!MESSAGE [SCR - SCRManager] ComponentFactory com.github.elyast.lemac.core cannot be managed using factory configuration!
+
+osgi> 
+!ENTRY com.github.elyast.lemac.core 4 0 2011-05-13 15:05:23.843
+!MESSAGE [SCR - SCRManager] ComponentFactory com.github.elyast.lemac.core cannot be managed using factory configuration!
+
+!ENTRY com.github.elyast.lemac.core 4 0 2011-05-13 15:05:23.843
+!MESSAGE [SCR - SCRManager] ComponentFactory com.github.elyast.lemac.core cannot be managed using factory configuration!
+All Components:
+ID	State			Component Name			Located in bundle
+1	Active		factoryinjection.component			org.apache.ws.commons.axiom.axiom-api(bid=128)
+2	Active		metafactory.llom.component			org.apache.ws.commons.axiom.axiom-impl(bid=129)
+3	Registered		org.eclipse.equinox.coordinator			org.eclipse.equinox.coordinator(bid=168)
+4	Active		org.eclipse.equinox.event			org.eclipse.equinox.event(bid=171)
+5	Registered		org.eclipse.equinox.frameworkadmin.equinox			org.eclipse.equinox.frameworkadmin.equinox(bid=173)
+6	Active		org.eclipse.equinox.p2.artifact.repository			org.eclipse.equinox.p2.artifact.repository(bid=181)
+7	Active		org.eclipse.equinox.p2.core.eventbus			org.eclipse.equinox.p2.core(bid=183)
+8	Active		org.eclipse.equinox.p2.di.agentProvider			org.eclipse.equinox.p2.core(bid=183)
+9	Registered		org.eclipse.equinox.p2.director			org.eclipse.equinox.p2.director(bid=184)
+10	Registered		org.eclipse.equinox.p2.planner			org.eclipse.equinox.p2.director(bid=184)
+11	Active		org.eclipse.equinox.p2.engine.registry			org.eclipse.equinox.p2.engine(bid=189)
+12	Registered		org.eclipse.equinox.p2.engine			org.eclipse.equinox.p2.engine(bid=189)
+13	Registered		org.eclipse.equinox.p2.garbagecollector			org.eclipse.equinox.p2.garbagecollector(bid=191)
+14	Active		org.eclipse.equinox.p2.metadata.repository			org.eclipse.equinox.p2.metadata.repository(bid=194)
+15	Registered		org.eclipse.equinox.p2.repository			org.eclipse.equinox.p2.repository(bid=200)
+16	Registered		org.eclipse.equinox.p2.transport.ecf			org.eclipse.equinox.p2.transport.ecf(bid=204)
+17	Registered		org.eclipse.equinox.p2.updatechecker			org.eclipse.equinox.p2.updatechecker(bid=205)
+18	Registered		org.eclipse.equinox.simpleconfigurator.manipulator			org.eclipse.equinox.simpleconfigurator.manipulator(bid=213)
+19	Unsatisfied		com.github.elyast.lemac.core			com.github.elyast.lemac.core(bid=279)
+
+osgi> Configuration list:
+   (none)
+
+osgi> 
+osgi> 
+osgi> All Components:
+ID	State			Component Name			Located in bundle
+1	Active		factoryinjection.component			org.apache.ws.commons.axiom.axiom-api(bid=128)
+2	Active		metafactory.llom.component			org.apache.ws.commons.axiom.axiom-impl(bid=129)
+3	Registered		org.eclipse.equinox.coordinator			org.eclipse.equinox.coordinator(bid=168)
+4	Active		org.eclipse.equinox.event			org.eclipse.equinox.event(bid=171)
+5	Registered		org.eclipse.equinox.frameworkadmin.equinox			org.eclipse.equinox.frameworkadmin.equinox(bid=173)
+6	Active		org.eclipse.equinox.p2.artifact.repository			org.eclipse.equinox.p2.artifact.repository(bid=181)
+7	Active		org.eclipse.equinox.p2.core.eventbus			org.eclipse.equinox.p2.core(bid=183)
+8	Active		org.eclipse.equinox.p2.di.agentProvider			org.eclipse.equinox.p2.core(bid=183)
+9	Registered		org.eclipse.equinox.p2.director			org.eclipse.equinox.p2.director(bid=184)
+10	Registered		org.eclipse.equinox.p2.planner			org.eclipse.equinox.p2.director(bid=184)
+11	Active		org.eclipse.equinox.p2.engine.registry			org.eclipse.equinox.p2.engine(bid=189)
+12	Registered		org.eclipse.equinox.p2.engine			org.eclipse.equinox.p2.engine(bid=189)
+13	Registered		org.eclipse.equinox.p2.garbagecollector			org.eclipse.equinox.p2.garbagecollector(bid=191)
+14	Active		org.eclipse.equinox.p2.metadata.repository			org.eclipse.equinox.p2.metadata.repository(bid=194)
+15	Registered		org.eclipse.equinox.p2.repository			org.eclipse.equinox.p2.repository(bid=200)
+16	Registered		org.eclipse.equinox.p2.transport.ecf			org.eclipse.equinox.p2.transport.ecf(bid=204)
+17	Registered		org.eclipse.equinox.p2.updatechecker			org.eclipse.equinox.p2.updatechecker(bid=205)
+18	Registered		org.eclipse.equinox.simpleconfigurator.manipulator			org.eclipse.equinox.simpleconfigurator.manipulator(bid=213)
+19	Factory		com.github.elyast.lemac.core			com.github.elyast.lemac.core(bid=279)
+
+osgi> {org.eclipse.osgi.framework.console.CommandProvider}={service.ranking=2147483647, service.id=2}
+  Registered by bundle: org.eclipse.osgi_3.7.0.v20110427 [0]
+  Bundles using service:
+    org.eclipse.osgi_3.7.0.v20110427 [0]
+{org.osgi.service.packageadmin.PackageAdmin}={service.ranking=2147483647, service.pid=0.org.eclipse.osgi.framework.internal.core.PackageAdminImpl, service.vendor=Eclipse.org - Equinox, service.id=4}
+  Registered by bundle: org.eclipse.osgi_3.7.0.v20110427 [0]
+  Bundles using service:
+    org.eclipse.osgi_3.7.0.v20110427 [0]
+    org.eclipse.equinox.simpleconfigurator_1.0.200.v20110404-2011 [2]
+    org.eclipse.equinox.common_3.6.0.v20110427 [166]
+    org.eclipse.core.runtime_3.7.0.v20110110 [152]
+    org.eclipse.equinox.preferences_3.4.0.v20110328 [207]
+    org.eclipse.core.jobs_3.5.100.v20110404 [149]
+    org.eclipse.equinox.app_1.3.100.v20110321 [164]
+    org.eclipse.equinox.registry_3.5.100.v20110321 [208]
+    org.eclipse.equinox.http.registry_1.1.100.v20101101 [174]
+    org.eclipse.jetty.osgi.boot_7.4.0.v20110414 [236]
+{org.osgi.service.permissionadmin.PermissionAdmin, org.osgi.service.condpermadmin.ConditionalPermissionAdmin}={service.ranking=2147483647, service.pid=0.org.eclipse.osgi.internal.permadmin.SecurityAdmin, service.vendor=Eclipse.org - Equinox, service.id=5}
+  Registered by bundle: org.eclipse.osgi_3.7.0.v20110427 [0]
+  No bundles using service.
+{org.osgi.service.startlevel.StartLevel}={service.ranking=2147483647, service.pid=0.org.eclipse.osgi.framework.internal.core.StartLevelManager, service.vendor=Eclipse.org - Equinox, service.id=6}
+  Registered by bundle: org.eclipse.osgi_3.7.0.v20110427 [0]
+  Bundles using service:
+    org.eclipse.osgi_3.7.0.v20110427 [0]
+    org.eclipse.equinox.simpleconfigurator_1.0.200.v20110404-2011 [2]
+{org.eclipse.osgi.service.debug.DebugOptions}={service.ranking=2147483647, service.pid=0.org.eclipse.osgi.framework.debug.FrameworkDebugOptions, service.vendor=Eclipse.org - Equinox, service.id=7}
+  Registered by bundle: org.eclipse.osgi_3.7.0.v20110427 [0]
+  Bundles using service:
+    org.eclipse.equinox.common_3.6.0.v20110427 [166]
+    org.eclipse.core.runtime_3.7.0.v20110110 [152]
+    org.eclipse.equinox.preferences_3.4.0.v20110328 [207]
+    org.eclipse.core.jobs_3.5.100.v20110404 [149]
+    org.eclipse.equinox.registry_3.5.100.v20110321 [208]
+    org.eclipse.core.contenttype_3.4.100.v20110423-0524 [142]
+    org.eclipse.core.net_1.2.100.I20110419-0800 [150]
+    org.eclipse.equinox.security_1.1.0.v20110411 [209]
+    org.eclipse.core.resources_3.7.100.v20110427-0856 [151]
+    org.eclipse.ecf.identity_3.1.0.v20100906-1425 [158]
+    org.eclipse.jdt.core_3.7.0.v_B53 [223]
+{java.lang.ClassLoader}={service.ranking=2147483647, service.pid=0.org.eclipse.core.runtime.internal.adaptor.ContextFinder, service.vendor=Eclipse.org - Equinox, equinox.classloader.type=contextClassLoader, service.id=8}
+  Registered by bundle: org.eclipse.osgi_3.7.0.v20110427 [0]
+  No bundles using service.
+{org.eclipse.osgi.framework.log.FrameworkLog}={service.ranking=2147483647, service.pid=0.org.eclipse.core.runtime.internal.adaptor.EclipseLogFactory, service.vendor=Eclipse.org - Equinox, service.id=11}
+  Registered by bundle: org.eclipse.osgi_3.7.0.v20110427 [0]
+  Bundles using service:
+    org.eclipse.equinox.ds_1.3.0.v20110418 [170]
+    org.eclipse.equinox.app_1.3.100.v20110321 [164]
+    org.eclipse.core.databinding.observable_1.4.0.I20110222-0800 [144]
+    org.eclipse.core.databinding_1.4.0.I20110111-0800 [143]
+    org.eclipse.core.net_1.2.100.I20110419-0800 [150]
+    org.eclipse.equinox.common_3.6.0.v20110427 [166]
+    org.eclipse.equinox.transforms.xslt_1.0.200.v20100503 [216]
+{org.eclipse.osgi.service.environment.EnvironmentInfo}={service.ranking=2147483647, service.pid=0.org.eclipse.core.runtime.internal.adaptor.EclipseEnvironmentInfo, service.vendor=Eclipse.org - Equinox, service.id=21}
+  Registered by bundle: org.eclipse.osgi_3.7.0.v20110427 [0]
+  Bundles using service:
+    org.eclipse.core.runtime_3.7.0.v20110110 [152]
+    org.eclipse.equinox.security_1.1.0.v20110411 [209]
+{org.eclipse.osgi.service.resolver.PlatformAdmin}={service.ranking=2147483647, service.pid=0.org.eclipse.osgi.internal.baseadaptor.StateManager, service.vendor=Eclipse.org - Equinox, service.id=22}
+  Registered by bundle: org.eclipse.osgi_3.7.0.v20110427 [0]
+  Bundles using service:
+    org.eclipse.core.runtime_3.7.0.v20110110 [152]
+{org.eclipse.osgi.service.pluginconversion.PluginConverter}={service.ranking=2147483647, service.pid=0.org.eclipse.core.runtime.internal.adaptor.PluginConverterImpl, service.vendor=Eclipse.org - Equinox, service.id=23}
+  Registered by bundle: org.eclipse.osgi_3.7.0.v20110427 [0]
+  No bundles using service.
+{org.eclipse.osgi.framework.console.CommandProvider}={service.ranking=2147483647, service.pid=0.org.eclipse.core.runtime.internal.adaptor.EclipseCommandProvider, service.vendor=Eclipse.org - Equinox, service.id=24}
+  Registered by bundle: org.eclipse.osgi_3.7.0.v20110427 [0]
+  Bundles using service:
+    org.eclipse.osgi_3.7.0.v20110427 [0]
+{org.eclipse.osgi.service.localization.BundleLocalization}={service.ranking=2147483647, service.pid=0.org.eclipse.core.runtime.internal.adaptor.BundleLocalizationImpl, service.vendor=Eclipse.org - Equinox, service.id=25}
+  Registered by bundle: org.eclipse.osgi_3.7.0.v20110427 [0]
+  Bundles using service:
+    org.eclipse.equinox.common_3.6.0.v20110427 [166]
+{org.eclipse.osgi.framework.console.CommandProvider}={service.ranking=2147483647, service.id=31}
+  Registered by bundle: org.eclipse.equinox.ds_1.3.0.v20110418 [170]
+  Bundles using service:
+    org.eclipse.osgi_3.7.0.v20110427 [0]
+{org.eclipse.equinox.internal.ip.ProvisioningInfoProvider}={service.ranking=300, service.id=135}
+  Registered by bundle: org.eclipse.equinox.ip_1.1.200.v20101204 [178]
+  Bundles using service:
+    org.eclipse.equinox.ip_1.1.200.v20101204 [178]
+{org.eclipse.equinox.internal.ip.ProvisioningInfoProvider}={service.ranking=200, service.id=136}
+  Registered by bundle: org.eclipse.equinox.ip_1.1.200.v20101204 [178]
+  Bundles using service:
+    org.eclipse.equinox.ip_1.1.200.v20101204 [178]
+{org.eclipse.equinox.internal.ip.ProvisioningInfoProvider}={service.ranking=100, service.id=137}
+  Registered by bundle: org.eclipse.equinox.ip_1.1.200.v20101204 [178]
+  Bundles using service:
+    org.eclipse.equinox.ip_1.1.200.v20101204 [178]
+{org.eclipse.equinox.p2.core.IProvisioningAgent}={agent.current=true, service.ranking=100, locationURI=file:/Users/lukaszjastrzebski/work/lemac/.metadata/.plugins/org.eclipse.pde.core/lemac%20on%20Features/../p2/, service.id=143}
+  Registered by bundle: org.eclipse.equinox.p2.core_2.1.0.v20110419-0147 [183]
+  Bundles using service:
+    org.eclipse.equinox.p2.console_1.0.300.v20110404-2011 [182]
+{org.eclipse.osgi.framework.console.ConsoleSession}={console.systemInOut=true, service.id=3}
+  Registered by bundle: org.eclipse.osgi_3.7.0.v20110427 [0]
+  Bundles using service:
+    org.eclipse.osgi_3.7.0.v20110427 [0]
+{org.osgi.service.log.LogReaderService, org.eclipse.equinox.log.ExtendedLogReaderService}={service.id=9}
+  Registered by bundle: org.eclipse.osgi_3.7.0.v20110427 [0]
+  Bundles using service:
+    org.eclipse.equinox.common_3.6.0.v20110427 [166]
+    org.eclipse.core.runtime_3.7.0.v20110110 [152]
+{org.osgi.service.log.LogService, org.eclipse.equinox.log.ExtendedLogService}={service.id=10}
+  Registered by bundle: org.eclipse.osgi_3.7.0.v20110427 [0]
+  Bundles using service:
+    org.eclipse.equinox.common_3.6.0.v20110427 [166]
+    org.eclipse.core.runtime_3.7.0.v20110110 [152]
+    org.eclipse.equinox.cm_1.0.300.v20101204 [165]
+    org.eclipse.equinox.device_1.0.300.v20101217 [169]
+    org.eclipse.equinox.event_1.2.100.v20110110 [171]
+    org.eclipse.equinox.ip_1.1.200.v20101204 [178]
+    org.eclipse.equinox.metatype_1.1.0.v20110411 [180]
+{javax.xml.parsers.SAXParserFactory}={service.id=13}
+  Registered by bundle: org.eclipse.osgi_3.7.0.v20110427 [0]
+  Bundles using service:
+    org.eclipse.equinox.registry_3.5.100.v20110321 [208]
+    org.eclipse.equinox.metatype_1.1.0.v20110411 [180]
+    org.eclipse.equinox.p2.metadata.repository_1.2.0.v20110421 [194]
+{javax.xml.parsers.DocumentBuilderFactory}={service.id=14}
+  Registered by bundle: org.eclipse.osgi_3.7.0.v20110427 [0]
+  No bundles using service.
+{org.eclipse.osgi.service.datalocation.Location}={type=osgi.user.area, service.id=15}
+  Registered by bundle: org.eclipse.osgi_3.7.0.v20110427 [0]
+  No bundles using service.
+{org.eclipse.osgi.service.datalocation.Location}={type=osgi.instance.area, service.id=16}
+  Registered by bundle: org.eclipse.osgi_3.7.0.v20110427 [0]
+  Bundles using service:
+    org.eclipse.equinox.preferences_3.4.0.v20110328 [207]
+    org.eclipse.core.net_1.2.100.I20110419-0800 [150]
+    org.eclipse.equinox.common_3.6.0.v20110427 [166]
+    org.eclipse.core.runtime_3.7.0.v20110110 [152]
+{org.eclipse.osgi.service.datalocation.Location}={type=osgi.configuration.area, service.id=17}
+  Registered by bundle: org.eclipse.osgi_3.7.0.v20110427 [0]
+  Bundles using service:
+    org.eclipse.equinox.preferences_3.4.0.v20110328 [207]
+    org.eclipse.equinox.app_1.3.100.v20110321 [164]
+    org.eclipse.equinox.registry_3.5.100.v20110321 [208]
+{org.eclipse.osgi.service.datalocation.Location}={type=osgi.install.area, service.id=18}
+  Registered by bundle: org.eclipse.osgi_3.7.0.v20110427 [0]
+  Bundles using service:
+    org.eclipse.equinox.common_3.6.0.v20110427 [166]
+{org.eclipse.osgi.service.datalocation.Location}={type=eclipse.home.location, service.id=19}
+  Registered by bundle: org.eclipse.osgi_3.7.0.v20110427 [0]
+  No bundles using service.
+{org.eclipse.osgi.service.urlconversion.URLConverter}={protocol=[bundleentry,bundleresource], service.id=20}
+  Registered by bundle: org.eclipse.osgi_3.7.0.v20110427 [0]
+  No bundles using service.
+{org.eclipse.osgi.signedcontent.SignedContentFactory}={service.id=27}
+  Registered by bundle: org.eclipse.osgi_3.7.0.v20110427 [0]
+  Bundles using service:
+    org.eclipse.osgi_3.7.0.v20110427 [0]
+{org.eclipse.osgi.internal.provisional.verifier.CertificateVerifierFactory}={service.id=28}
+  Registered by bundle: org.eclipse.osgi_3.7.0.v20110427 [0]
+  No bundles using service.
+{org.osgi.service.framework.CompositeBundleFactory}={service.id=29}
+  Registered by bundle: org.eclipse.osgi_3.7.0.v20110427 [0]
+  No bundles using service.
+{org.osgi.service.cm.ConfigurationListener}={service.id=30}
+  Registered by bundle: org.eclipse.equinox.ds_1.3.0.v20110418 [170]
+  Bundles using service:
+    org.eclipse.equinox.cm_1.0.300.v20101204 [165]
+{org.apache.felix.scr.ScrService}={service.id=32}
+  Registered by bundle: org.eclipse.equinox.ds_1.3.0.v20110418 [170]
+  No bundles using service.
+{org.eclipse.equinox.internal.provisional.configurator.Configurator}={service.pid=org.eclipse.equinox.simpleconfigurator, service.vendor=Eclipse, service.id=33}
+  Registered by bundle: org.eclipse.equinox.simpleconfigurator_1.0.200.v20110404-2011 [2]
+  No bundles using service.
+{org.eclipse.osgi.framework.console.CommandProvider}={service.id=34}
+  Registered by bundle: org.eclipse.equinox.simpleconfigurator_1.0.200.v20110404-2011 [2]
+  Bundles using service:
+    org.eclipse.osgi_3.7.0.v20110427 [0]
+{org.eclipse.osgi.service.urlconversion.URLConverter}={protocol=platform, service.id=35}
+  Registered by bundle: org.eclipse.equinox.common_3.6.0.v20110427 [166]
+  No bundles using service.
+{org.eclipse.core.runtime.IAdapterManager}={service.id=36}
+  Registered by bundle: org.eclipse.equinox.common_3.6.0.v20110427 [166]
+  No bundles using service.
+{org.osgi.service.url.URLStreamHandlerService}={url.handler.protocol=[platform], service.id=37}
+  Registered by bundle: org.eclipse.equinox.common_3.6.0.v20110427 [166]
+  Bundles using service:
+    org.eclipse.osgi_3.7.0.v20110427 [0]
+{org.apache.camel.spi.ComponentResolver}={component=[atom], service.id=38}
+  Registered by bundle: org.apache.camel.camel-atom_2.7.1 [57]
+  No bundles using service.
+{org.apache.camel.spi.TypeConverterLoader}={service.id=39}
+  Registered by bundle: org.apache.camel.camel-atom_2.7.1 [57]
+  No bundles using service.
+{org.apache.camel.spi.ComponentResolver}={component=[cache], service.id=40}
+  Registered by bundle: org.apache.camel.camel-cache_2.7.1 [58]
+  No bundles using service.
+{org.apache.camel.spi.TypeConverterLoader}={service.id=41}
+  Registered by bundle: org.apache.camel.camel-cache_2.7.1 [58]
+  No bundles using service.
+{org.apache.camel.spi.ComponentResolver}={component=[context], service.id=42}
+  Registered by bundle: org.apache.camel.camel-context_2.7.1 [59]
+  No bundles using service.
+{org.apache.camel.spi.TypeConverterLoader}={service.id=43}
+  Registered by bundle: org.apache.camel.camel-context_2.7.1 [59]
+  No bundles using service.
+{org.apache.camel.spi.ComponentResolver}={component=[direct,vm,bean,mock,class,properties,log,ref,browse,dataset,file,timer,language,seda], service.id=44}
+  Registered by bundle: org.apache.camel.camel-core_2.7.1 [60]
+  No bundles using service.
+{org.apache.camel.spi.LanguageResolver}={language=[constant,bean,simple,file,property,header,xpath,tokenize], service.id=45}
+  Registered by bundle: org.apache.camel.camel-core_2.7.1 [60]
+  No bundles using service.
+{org.apache.camel.spi.TypeConverterLoader}={service.id=46}
+  Registered by bundle: org.apache.camel.camel-core_2.7.1 [60]
+  No bundles using service.
+{org.apache.camel.spi.ComponentResolver}={component=[crypto], service.id=47}
+  Registered by bundle: org.apache.camel.camel-crypto_2.7.1 [61]
+  No bundles using service.
+{org.apache.camel.spi.DataFormatResolver}={dataformat=[crypto], service.id=48}
+  Registered by bundle: org.apache.camel.camel-crypto_2.7.1 [61]
+  No bundles using service.
+{org.apache.camel.spi.DataFormatResolver}={dataformat=[csv], service.id=49}
+  Registered by bundle: org.apache.camel.camel-csv_2.7.1 [62]
+  No bundles using service.
+{org.apache.camel.spi.ComponentResolver}={component=[cxfbean,cxf,cxfrs], service.id=50}
+  Registered by bundle: org.apache.camel.camel-cxf_2.7.1 [63]
+  No bundles using service.
+{org.apache.camel.spi.TypeConverterLoader}={service.id=51}
+  Registered by bundle: org.apache.camel.camel-cxf_2.7.1 [63]
+  No bundles using service.
+{org.apache.camel.spi.ComponentResolver}={component=eventadmin, service.id=52}
+  Registered by bundle: org.apache.camel.camel-eventadmin_2.7.1 [64]
+  No bundles using service.
+{org.apache.camel.spi.ComponentResolver}={component=[exec], service.id=53}
+  Registered by bundle: org.apache.camel.camel-exec_2.7.1 [65]
+  No bundles using service.
+{org.apache.camel.spi.TypeConverterLoader}={service.id=54}
+  Registered by bundle: org.apache.camel.camel-exec_2.7.1 [65]
+  No bundles using service.
+{org.apache.camel.spi.ComponentResolver}={component=[ftp,sftp,ftps], service.id=55}
+  Registered by bundle: org.apache.camel.camel-ftp_2.7.1 [66]
+  No bundles using service.
+{org.apache.camel.spi.TypeConverterLoader}={service.id=56}
+  Registered by bundle: org.apache.camel.camel-ftp_2.7.1 [66]
+  No bundles using service.
+{org.apache.camel.spi.ComponentResolver}={component=[hazelcast], service.id=57}
+  Registered by bundle: org.apache.camel.camel-hazelcast_2.7.1 [67]
+  No bundles using service.
+{org.apache.camel.spi.ComponentResolver}={component=[https,http], service.id=58}
+  Registered by bundle: org.apache.camel.camel-http_2.7.1 [68]
+  No bundles using service.
+{org.apache.camel.spi.TypeConverterLoader}={service.id=59}
+  Registered by bundle: org.apache.camel.camel-http_2.7.1 [68]
+  No bundles using service.
+{org.apache.camel.spi.ComponentResolver}={component=[http4,https4], service.id=60}
+  Registered by bundle: org.apache.camel.camel-http4_2.7.1 [69]
+  No bundles using service.
+{org.apache.camel.spi.TypeConverterLoader}={service.id=61}
+  Registered by bundle: org.apache.camel.camel-http4_2.7.1 [69]
+  No bundles using service.
+{org.apache.camel.spi.DataFormatResolver}={dataformat=[json-jackson], service.id=62}
+  Registered by bundle: org.apache.camel.camel-jackson_2.7.1 [70]
+  No bundles using service.
+{org.apache.camel.spi.DataFormatResolver}={dataformat=[jaxb], service.id=63}
+  Registered by bundle: org.apache.camel.camel-jaxb_2.7.1 [71]
+  No bundles using service.
+{org.apache.camel.spi.TypeConverterLoader}={service.id=64}
+  Registered by bundle: org.apache.camel.camel-jaxb_2.7.1 [71]
+  No bundles using service.
+{org.apache.camel.spi.ComponentResolver}={component=[jdbc], service.id=65}
+  Registered by bundle: org.apache.camel.camel-jdbc_2.7.1 [72]
+  No bundles using service.
+{org.apache.camel.spi.ComponentResolver}={component=[jetty], service.id=66}
+  Registered by bundle: org.apache.camel.camel-jetty_2.7.1 [73]
+  No bundles using service.
+{org.apache.camel.spi.TypeConverterLoader}={service.id=67}
+  Registered by bundle: org.apache.camel.camel-jetty_2.7.1 [73]
+  No bundles using service.
+{org.apache.camel.spi.ComponentResolver}={component=[jms], service.id=68}
+  Registered by bundle: org.apache.camel.camel-jms_2.7.1 [74]
+  No bundles using service.
+{org.apache.camel.spi.ComponentResolver}={component=[jmx], service.id=69}
+  Registered by bundle: org.apache.camel.camel-jmx_2.7.1 [75]
+  No bundles using service.
+{org.apache.camel.spi.LanguageResolver}={language=[el], service.id=70}
+  Registered by bundle: org.apache.camel.camel-juel_2.7.1 [76]
+  No bundles using service.
+{org.apache.camel.spi.ComponentResolver}={component=[ldap], service.id=71}
+  Registered by bundle: org.apache.camel.camel-ldap_2.7.1 [77]
+  No bundles using service.
+{org.apache.camel.spi.ComponentResolver}={component=[lucene], service.id=72}
+  Registered by bundle: org.apache.camel.camel-lucene_2.7.1 [78]
+  No bundles using service.
+{org.apache.camel.spi.ComponentResolver}={component=[smtp,imap,imaps,pop3,pop3s,nntp,smtps], service.id=73}
+  Registered by bundle: org.apache.camel.camel-mail_2.7.1 [79]
+  No bundles using service.
+{org.apache.camel.spi.TypeConverterLoader}={service.id=74}
+  Registered by bundle: org.apache.camel.camel-mail_2.7.1 [79]
+  No bundles using service.
+{org.apache.camel.spi.ComponentResolver}={component=[lpr], service.id=75}
+  Registered by bundle: org.apache.camel.camel-printer_2.7.1 [80]
+  No bundles using service.
+{org.apache.camel.spi.DataFormatResolver}={dataformat=[protobuf], service.id=76}
+  Registered by bundle: org.apache.camel.camel-protobuf_2.7.1 [81]
+  No bundles using service.
+{org.apache.camel.spi.ComponentResolver}={component=[quartz], service.id=77}
+  Registered by bundle: org.apache.camel.camel-quartz_2.7.1 [82]
+  No bundles using service.
+{org.apache.camel.spi.ComponentResolver}={component=[rmi], service.id=78}
+  Registered by bundle: org.apache.camel.camel-rmi_2.7.1 [83]
+  No bundles using service.
+{org.apache.camel.spi.ComponentResolver}={component=[routebox], service.id=79}
+  Registered by bundle: org.apache.camel.camel-routebox_2.7.1 [84]
+  No bundles using service.
+{org.apache.camel.spi.ComponentResolver}={component=[rss], service.id=80}
+  Registered by bundle: org.apache.camel.camel-rss_2.7.1 [85]
+  No bundles using service.
+{org.apache.camel.spi.DataFormatResolver}={dataformat=[rss], service.id=81}
+  Registered by bundle: org.apache.camel.camel-rss_2.7.1 [85]
+  No bundles using service.
+{org.apache.camel.spi.TypeConverterLoader}={service.id=82}
+  Registered by bundle: org.apache.camel.camel-rss_2.7.1 [85]
+  No bundles using service.
+{org.apache.camel.spi.ComponentResolver}={component=[servlet], service.id=83}
+  Registered by bundle: org.apache.camel.camel-servlet_2.7.1 [86]
+  No bundles using service.
+{org.apache.camel.spi.ComponentResolver}={component=[sip], service.id=84}
+  Registered by bundle: org.apache.camel.camel-sip_2.7.1 [87]
+  No bundles using service.
+{org.apache.camel.spi.ComponentResolver}={component=[smpp,smpps], service.id=85}
+  Registered by bundle: org.apache.camel.camel-smpp_2.7.1 [88]
+  No bundles using service.
+{org.apache.camel.spi.ComponentResolver}={component=[snmp], service.id=86}
+  Registered by bundle: org.apache.camel.camel-snmp_2.7.1 [89]
+  No bundles using service.
+{org.apache.camel.spi.TypeConverterLoader}={service.id=87}
+  Registered by bundle: org.apache.camel.camel-snmp_2.7.1 [89]
+  No bundles using service.
+{org.apache.camel.spi.ComponentResolver}={component=[xslt,test,validator,spring-event], service.id=88}
+  Registered by bundle: org.apache.camel.camel-spring_2.7.1 [90]
+  No bundles using service.
+{org.apache.camel.spi.LanguageResolver}={language=[spel], service.id=89}
+  Registered by bundle: org.apache.camel.camel-spring_2.7.1 [90]
+  No bundles using service.
+{org.apache.camel.spi.ComponentResolver}={component=[sql], service.id=90}
+  Registered by bundle: org.apache.camel.camel-sql_2.7.1 [91]
+  No bundles using service.
+{org.apache.camel.spi.ComponentResolver}={component=[xmpp], service.id=91}
+  Registered by bundle: org.apache.camel.camel-xmpp_2.7.1 [92]
+  No bundles using service.
+{org.eclipse.equinox.internal.util.threadpool.ThreadPoolManager, org.eclipse.equinox.internal.util.threadpool.ThreadPoolFactory}={service.id=92}
+  Registered by bundle: org.eclipse.equinox.util_1.0.200.v20100503 [218]
+  Bundles using service:
+    org.eclipse.equinox.ds_1.3.0.v20110418 [170]
+{org.eclipse.equinox.internal.util.timer.Timer}={service.id=93}
+  Registered by bundle: org.eclipse.equinox.util_1.0.200.v20100503 [218]
+  Bundles using service:
+    org.eclipse.equinox.ip_1.1.200.v20101204 [178]
+{org.apache.axiom.om.OMMetaFactory}={service.pid=metafactory.llom.component, component.name=metafactory.llom.component, component.id=1, implementationName=llom, service.id=94}
+  Registered by bundle: org.apache.ws.commons.axiom.axiom-impl_1.2.11 [129]
+  Bundles using service:
+    org.apache.ws.commons.axiom.axiom-api_1.2.11 [128]
+{org.eclipse.core.internal.preferences.exchange.IProductPreferencesService}={service.id=95}
+  Registered by bundle: org.eclipse.core.runtime_3.7.0.v20110110 [152]
+  No bundles using service.
+{org.eclipse.core.runtime.preferences.IPreferencesService}={service.id=96}
+  Registered by bundle: org.eclipse.equinox.preferences_3.4.0.v20110328 [207]
+  Bundles using service:
+    org.eclipse.core.runtime_3.7.0.v20110110 [152]
+{org.osgi.service.prefs.PreferencesService}={service.id=97}
+  Registered by bundle: org.eclipse.equinox.preferences_3.4.0.v20110328 [207]
+  Bundles using service:
+    org.eclipse.equinox.useradmin_1.1.300.v20110413 [217]
+{org.eclipse.core.runtime.jobs.IJobManager}={service.id=98}
+  Registered by bundle: org.eclipse.core.jobs_3.5.100.v20110404 [149]
+  No bundles using service.
+{org.eclipse.core.runtime.IExtensionRegistry}={service.id=99}
+  Registered by bundle: org.eclipse.equinox.registry_3.5.100.v20110321 [208]
+  Bundles using service:
+    org.eclipse.equinox.preferences_3.4.0.v20110328 [207]
+    org.eclipse.equinox.app_1.3.100.v20110321 [164]
+    org.eclipse.core.contenttype_3.4.100.v20110423-0524 [142]
+    org.eclipse.equinox.registry_3.5.100.v20110321 [208]
+    org.eclipse.ecf_3.1.0.v20100906-1425 [156]
+    org.eclipse.ecf.identity_3.1.0.v20100906-1425 [158]
+    org.eclipse.ecf.filetransfer_4.0.0.v20100906-1425 [157]
+    org.eclipse.ecf.provider.filetransfer_3.1.0.v20100906-1425 [159]
+    org.eclipse.equinox.http.registry_1.1.100.v20101101 [174]
+{org.eclipse.osgi.framework.console.CommandProvider}={service.id=100}
+  Registered by bundle: org.eclipse.equinox.registry_3.5.100.v20110321 [208]
+  Bundles using service:
+    org.eclipse.osgi_3.7.0.v20110427 [0]
+{org.osgi.service.application.ApplicationDescriptor}={eclipse.application.type=main.thread, application.name=, application.visible=true, application.container=org.eclipse.equinox.app, service.pid=org.eclipse.ant.core.antRunner, application.launchable=true, application.locked=false, application.location=reference:file:/Users/lukaszjastrzebski/work/lemac/.metadata/.plugins/org.eclipse.pde.core/.bundle_pool/plugins/org.eclipse.ant.core_3.2.300.v20110404.jar, service.id=101}
+  Registered by bundle: org.eclipse.equinox.app_1.3.100.v20110321 [164]
+  Bundles using service:
+    org.eclipse.equinox.app_1.3.100.v20110321 [164]
+{org.osgi.service.application.ApplicationDescriptor}={eclipse.application.type=main.thread, application.name=, application.visible=false, application.container=org.eclipse.equinox.app, service.pid=org.eclipse.equinox.app.error, application.launchable=true, application.locked=false, application.location=reference:file:/Users/lukaszjastrzebski/work/lemac/.metadata/.plugins/org.eclipse.pde.core/.bundle_pool/plugins/org.eclipse.equinox.app_1.3.100.v20110321.jar, service.id=102}
+  Registered by bundle: org.eclipse.equinox.app_1.3.100.v20110321 [164]
+  Bundles using service:
+    org.eclipse.equinox.app_1.3.100.v20110321 [164]
+{org.osgi.service.application.ApplicationDescriptor}={eclipse.application.type=main.thread, application.name=, application.visible=true, application.container=org.eclipse.equinox.app, service.pid=org.eclipse.equinox.p2.director, application.launchable=true, application.locked=false, application.location=reference:file:/Users/lukaszjastrzebski/work/lemac/.metadata/.plugins/org.eclipse.pde.core/.bundle_pool/plugins/org.eclipse.equinox.p2.director.app_1.0.300.v20110419-0147.jar, service.id=103}
+  Registered by bundle: org.eclipse.equinox.app_1.3.100.v20110321 [164]
+  Bundles using service:
+    org.eclipse.equinox.app_1.3.100.v20110321 [164]
+{org.osgi.service.application.ApplicationDescriptor}={eclipse.application.type=main.thread, application.name=, application.visible=true, application.container=org.eclipse.equinox.app, service.pid=org.eclipse.equinox.p2.garbagecollector.application, application.launchable=true, application.locked=false, application.location=reference:file:/Users/lukaszjastrzebski/work/lemac/.metadata/.plugins/org.eclipse.pde.core/.bundle_pool/plugins/org.eclipse.equinox.p2.garbagecollector_1.0.200.v20110222-0044.jar, service.id=104}
+  Registered by bundle: org.eclipse.equinox.app_1.3.100.v20110321 [164]
+  Bundles using service:
+    org.eclipse.equinox.app_1.3.100.v20110321 [164]
+{org.osgi.service.application.ApplicationDescriptor}={eclipse.application.type=any.thread, application.name=, application.visible=true, application.container=org.eclipse.equinox.app, service.pid=org.eclipse.equinox.p2.publisher.InstallPublisher, application.launchable=true, application.locked=false, application.location=reference:file:/Users/lukaszjastrzebski/work/lemac/.metadata/.plugins/org.eclipse.pde.core/.bundle_pool/plugins/org.eclipse.equinox.p2.publisher.eclipse_1.0.0.v20110419-0147/, service.id=105}
+  Registered by bundle: org.eclipse.equinox.app_1.3.100.v20110321 [164]
+  Bundles using service:
+    org.eclipse.equinox.app_1.3.100.v20110321 [164]
+{org.osgi.service.application.ApplicationDescriptor}={eclipse.application.type=main.thread, application.name=, application.visible=true, application.container=org.eclipse.equinox.app, service.pid=org.eclipse.equinox.p2.publisher.EclipseGenerator, application.launchable=true, application.locked=false, application.location=reference:file:/Users/lukaszjastrzebski/work/lemac/.metadata/.plugins/org.eclipse.pde.core/.bundle_pool/plugins/org.eclipse.equinox.p2.publisher.eclipse_1.0.0.v20110419-0147/, service.id=106}
+  Registered by bundle: org.eclipse.equinox.app_1.3.100.v20110321 [164]
+  Bundles using service:
+    org.eclipse.equinox.app_1.3.100.v20110321 [164]
+{org.osgi.service.application.ApplicationDescriptor}={eclipse.application.type=any.thread, application.name=, application.visible=true, application.container=org.eclipse.equinox.app, service.pid=org.eclipse.equinox.p2.publisher.ProductPublisher, application.launchable=true, application.locked=false, application.location=reference:file:/Users/lukaszjastrzebski/work/lemac/.metadata/.plugins/org.eclipse.pde.core/.bundle_pool/plugins/org.eclipse.equinox.p2.publisher.eclipse_1.0.0.v20110419-0147/, service.id=107}
+  Registered by bundle: org.eclipse.equinox.app_1.3.100.v20110321 [164]
+  Bundles using service:
+    org.eclipse.equinox.app_1.3.100.v20110321 [164]
+{org.osgi.service.application.ApplicationDescriptor}={eclipse.application.type=any.thread, application.name=, application.visible=true, application.container=org.eclipse.equinox.app, service.pid=org.eclipse.equinox.p2.publisher.FeaturesAndBundlesPublisher, application.launchable=true, application.locked=false, application.location=reference:file:/Users/lukaszjastrzebski/work/lemac/.metadata/.plugins/org.eclipse.pde.core/.bundle_pool/plugins/org.eclipse.equinox.p2.publisher.eclipse_1.0.0.v20110419-0147/, service.id=108}
+  Registered by bundle: org.eclipse.equinox.app_1.3.100.v20110321 [164]
+  Bundles using service:
+    org.eclipse.equinox.app_1.3.100.v20110321 [164]
+{org.osgi.service.application.ApplicationDescriptor}={eclipse.application.type=main.thread, application.name=, application.visible=true, application.container=org.eclipse.equinox.app, service.pid=org.eclipse.equinox.p2.reconciler.application, application.launchable=true, application.locked=false, application.location=reference:file:/Users/lukaszjastrzebski/work/lemac/.metadata/.plugins/org.eclipse.pde.core/.bundle_pool/plugins/org.eclipse.equinox.p2.reconciler.dropins_1.1.100.v20110207.jar, service.id=109}
+  Registered by bundle: org.eclipse.equinox.app_1.3.100.v20110321 [164]
+  Bundles using service:
+    org.eclipse.equinox.app_1.3.100.v20110321 [164]
+{org.osgi.service.application.ApplicationDescriptor}={eclipse.application.type=main.thread, application.name=, application.visible=true, application.container=org.eclipse.equinox.app, service.pid=org.eclipse.equinox.p2.repository.repo2runnable, application.launchable=true, application.locked=false, application.location=reference:file:/Users/lukaszjastrzebski/work/lemac/.metadata/.plugins/org.eclipse.pde.core/.bundle_pool/plugins/org.eclipse.equinox.p2.repository.tools_2.0.100.v20110419-0147.jar, service.id=110}
+  Registered by bundle: org.eclipse.equinox.app_1.3.100.v20110321 [164]
+  Bundles using service:
+    org.eclipse.equinox.app_1.3.100.v20110321 [164]
+{org.osgi.service.application.ApplicationDescriptor}={eclipse.application.type=main.thread, application.name=, application.visible=true, application.container=org.eclipse.equinox.app, service.pid=org.eclipse.equinox.p2.repository.metadataverifier, application.launchable=true, application.locked=false, application.location=reference:file:/Users/lukaszjastrzebski/work/lemac/.metadata/.plugins/org.eclipse.pde.core/.bundle_pool/plugins/org.eclipse.equinox.p2.repository.tools_2.0.100.v20110419-0147.jar, service.id=111}
+  Registered by bundle: org.eclipse.equinox.app_1.3.100.v20110321 [164]
+  Bundles using service:
+    org.eclipse.equinox.app_1.3.100.v20110321 [164]
+{org.osgi.service.application.ApplicationDescriptor}={eclipse.application.type=main.thread, application.name=, application.visible=true, application.container=org.eclipse.equinox.app, service.pid=org.eclipse.equinox.p2.artifact.repository.mirrorApplication, application.launchable=true, application.locked=false, application.location=reference:file:/Users/lukaszjastrzebski/work/lemac/.metadata/.plugins/org.eclipse.pde.core/.bundle_pool/plugins/org.eclipse.equinox.p2.repository.tools_2.0.100.v20110419-0147.jar, service.id=112}
+  Registered by bundle: org.eclipse.equinox.app_1.3.100.v20110321 [164]
+  Bundles using service:
+    org.eclipse.equinox.app_1.3.100.v20110321 [164]
+{org.osgi.service.application.ApplicationDescriptor}={eclipse.application.type=main.thread, application.name=, application.visible=true, application.container=org.eclipse.equinox.app, service.pid=org.eclipse.equinox.p2.metadata.repository.mirrorApplication, application.launchable=true, application.locked=false, application.location=reference:file:/Users/lukaszjastrzebski/work/lemac/.metadata/.plugins/org.eclipse.pde.core/.bundle_pool/plugins/org.eclipse.equinox.p2.repository.tools_2.0.100.v20110419-0147.jar, service.id=113}
+  Registered by bundle: org.eclipse.equinox.app_1.3.100.v20110321 [164]
+  Bundles using service:
+    org.eclipse.equinox.app_1.3.100.v20110321 [164]
+{org.osgi.service.application.ApplicationDescriptor}={eclipse.application.type=any.thread, application.name=, application.visible=true, application.container=org.eclipse.equinox.app, service.pid=org.eclipse.equinox.p2.updatesite.UpdateSitePublisher, application.launchable=true, application.locked=false, application.location=reference:file:/Users/lukaszjastrzebski/work/lemac/.metadata/.plugins/org.eclipse.pde.core/.bundle_pool/plugins/org.eclipse.equinox.p2.updatesite_1.0.300.v20110404-2011.jar, service.id=114}
+  Registered by bundle: org.eclipse.equinox.app_1.3.100.v20110321 [164]
+  Bundles using service:
+    org.eclipse.equinox.app_1.3.100.v20110321 [164]
+{org.osgi.service.application.ApplicationDescriptor}={eclipse.application.type=any.thread, application.name=, application.visible=true, application.container=org.eclipse.equinox.app, service.pid=org.eclipse.equinox.p2.publisher.UpdateSitePublisher, application.launchable=true, application.locked=false, application.location=reference:file:/Users/lukaszjastrzebski/work/lemac/.metadata/.plugins/org.eclipse.pde.core/.bundle_pool/plugins/org.eclipse.equinox.p2.updatesite_1.0.300.v20110404-2011.jar, service.id=115}
+  Registered by bundle: org.eclipse.equinox.app_1.3.100.v20110321 [164]
+  Bundles using service:
+    org.eclipse.equinox.app_1.3.100.v20110321 [164]
+{org.osgi.service.application.ApplicationDescriptor}={eclipse.application.type=any.thread, application.name=, application.visible=true, application.container=org.eclipse.equinox.app, service.pid=org.eclipse.equinox.p2.publisher.CategoryPublisher, application.launchable=true, application.locked=false, application.location=reference:file:/Users/lukaszjastrzebski/work/lemac/.metadata/.plugins/org.eclipse.pde.core/.bundle_pool/plugins/org.eclipse.equinox.p2.updatesite_1.0.300.v20110404-2011.jar, service.id=116}
+  Registered by bundle: org.eclipse.equinox.app_1.3.100.v20110321 [164]
+  Bundles using service:
+    org.eclipse.equinox.app_1.3.100.v20110321 [164]
+{org.osgi.service.application.ApplicationDescriptor}={eclipse.application.type=main.thread, application.name=, application.visible=true, application.container=org.eclipse.equinox.app, service.pid=org.eclipse.jdt.core.JavaCodeFormatter, application.launchable=true, application.locked=false, application.location=reference:file:/Users/lukaszjastrzebski/work/lemac/.metadata/.plugins/org.eclipse.pde.core/.bundle_pool/plugins/org.eclipse.jdt.core_3.7.0.v_B53.jar, service.id=117}
+  Registered by bundle: org.eclipse.equinox.app_1.3.100.v20110321 [164]
+  Bundles using service:
+    org.eclipse.equinox.app_1.3.100.v20110321 [164]
+{org.eclipse.osgi.framework.console.CommandProvider}={service.id=118}
+  Registered by bundle: org.eclipse.equinox.app_1.3.100.v20110321 [164]
+  Bundles using service:
+    org.eclipse.osgi_3.7.0.v20110427 [0]
+{org.eclipse.core.runtime.content.IContentTypeManager}={service.id=119}
+  Registered by bundle: org.eclipse.core.contenttype_3.4.100.v20110423-0524 [142]
+  Bundles using service:
+    org.eclipse.core.runtime_3.7.0.v20110110 [152]
+{org.eclipse.core.net.proxy.IProxyService}={service.id=120}
+  Registered by bundle: org.eclipse.core.net_1.2.100.I20110419-0800 [150]
+  No bundles using service.
+{org.eclipse.core.resources.IWorkspace}={service.id=121}
+  Registered by bundle: org.eclipse.core.resources_3.7.100.v20110427-0856 [151]
+  No bundles using service.
+{javax.net.ssl.SSLSocketFactory}={service.id=122}
+  Registered by bundle: org.eclipse.ecf_3.1.0.v20100906-1425 [156]
+  No bundles using service.
+{org.eclipse.ecf.core.IContainerFactory}={service.id=123}
+  Registered by bundle: org.eclipse.ecf_3.1.0.v20100906-1425 [156]
+  No bundles using service.
+{org.eclipse.ecf.core.IContainerManager}={service.id=124}
+  Registered by bundle: org.eclipse.ecf_3.1.0.v20100906-1425 [156]
+  No bundles using service.
+{org.eclipse.ecf.core.identity.IIDFactory}={service.id=125}
+  Registered by bundle: org.eclipse.ecf.identity_3.1.0.v20100906-1425 [158]
+  No bundles using service.
+{org.eclipse.ecf.filetransfer.service.IRetrieveFileTransferFactory}={service.id=126}
+  Registered by bundle: org.eclipse.ecf.provider.filetransfer_3.1.0.v20100906-1425 [159]
+  No bundles using service.
+{org.eclipse.ecf.provider.filetransfer.IFileTransferProtocolToFactoryMapper}={service.id=127}
+  Registered by bundle: org.eclipse.ecf.provider.filetransfer_3.1.0.v20100906-1425 [159]
+  No bundles using service.
+{org.osgi.service.cm.ConfigurationListener}={service.id=128}
+  Registered by bundle: org.eclipse.equinox.cm_1.0.300.v20101204 [165]
+  Bundles using service:
+    org.eclipse.equinox.cm_1.0.300.v20101204 [165]
+{org.osgi.service.cm.ConfigurationAdmin}={service.id=129}
+  Registered by bundle: org.eclipse.equinox.cm_1.0.300.v20101204 [165]
+  Bundles using service:
+    org.eclipse.equinox.ds_1.3.0.v20110418 [170]
+    org.eclipse.equinox.wireadmin_1.0.300.v20101204 [222]
+    org.ops4j.pax.configmanager_0.2.2 [281]
+    net.luminis.cmc_0.2.5 [280]
+{org.osgi.service.coordinator.Coordinator}={component.name=org.eclipse.equinox.coordinator, component.id=2, service.id=130}
+  Registered by bundle: org.eclipse.equinox.coordinator_1.0.0.v20110321 [168]
+  No bundles using service.
+{org.osgi.service.event.EventAdmin}={component.name=org.eclipse.equinox.event, component.id=3, service.id=131}
+  Registered by bundle: org.eclipse.equinox.event_1.2.100.v20110110 [171]
+  Bundles using service:
+    org.eclipse.equinox.cm_1.0.300.v20101204 [165]
+    org.eclipse.equinox.event_1.2.100.v20110110 [171]
+    org.eclipse.equinox.useradmin_1.1.300.v20110413 [217]
+    org.eclipse.equinox.wireadmin_1.0.300.v20101204 [222]
+{org.eclipse.equinox.internal.provisional.frameworkadmin.FrameworkAdmin}={org.eclipse.equinox.frameworkhandler.launcher.version=3.2, component.name=org.eclipse.equinox.frameworkadmin.equinox, component.id=4, org.eclipse.equinox.frameworkhandler.framework.name=Equinox, org.eclipse.equinox.frameworkhandler.launcher.name=Eclipse.exe, org.eclipse.equinox.frameworkhandler.framework.version=3.3, service.id=132}
+  Registered by bundle: org.eclipse.equinox.frameworkadmin.equinox_1.0.300.v20110228 [173]
+  No bundles using service.
+{org.eclipse.equinox.http.registry.HttpContextExtensionService}={service.id=133}
+  Registered by bundle: org.eclipse.equinox.http.registry_1.1.100.v20101101 [174]
+  No bundles using service.
+{org.osgi.service.io.ConnectorService}={service.id=134}
+  Registered by bundle: org.eclipse.equinox.io_1.0.300.v20101204 [177]
+  No bundles using service.
+{org.osgi.service.metatype.MetaTypeService}={service.description=OSGi Metatype Service - IBM Implementation, service.pid=org.osgi.impl.service.metatype.MetaTypeService, service.vendor=IBM, service.id=138}
+  Registered by bundle: org.eclipse.equinox.metatype_1.1.0.v20110411 [180]
+  No bundles using service.
+{org.eclipse.equinox.p2.core.spi.IAgentServiceFactory}={component.name=org.eclipse.equinox.p2.artifact.repository, component.id=5, p2.agent.servicename=org.eclipse.equinox.p2.repository.artifact.IArtifactRepositoryManager, service.id=139}
+  Registered by bundle: org.eclipse.equinox.p2.artifact.repository_1.1.100.v20110421 [181]
+  Bundles using service:
+    org.eclipse.equinox.p2.core_2.1.0.v20110419-0147 [183]
+{org.eclipse.equinox.p2.core.spi.IAgentServiceFactory}={component.name=org.eclipse.equinox.p2.core.eventbus, component.id=6, p2.agent.servicename=org.eclipse.equinox.internal.provisional.p2.core.eventbus.IProvisioningEventBus, service.id=140}
+  Registered by bundle: org.eclipse.equinox.p2.core_2.1.0.v20110419-0147 [183]
+  Bundles using service:
+    org.eclipse.equinox.p2.core_2.1.0.v20110419-0147 [183]
+{org.eclipse.equinox.p2.core.IProvisioningAgentProvider}={component.name=org.eclipse.equinox.p2.di.agentProvider, component.id=7, service.id=141}
+  Registered by bundle: org.eclipse.equinox.p2.core_2.1.0.v20110419-0147 [183]
+  Bundles using service:
+    org.eclipse.equinox.p2.core_2.1.0.v20110419-0147 [183]
+{org.eclipse.equinox.p2.core.IAgentLocation}={type=eclipse.p2.data.area, service.id=142}
+  Registered by bundle: org.eclipse.equinox.p2.core_2.1.0.v20110419-0147 [183]
+  No bundles using service.
+{org.eclipse.equinox.p2.core.spi.IAgentServiceFactory}={component.name=org.eclipse.equinox.p2.repository, component.id=8, p2.agent.servicename=org.eclipse.equinox.internal.p2.repository.CacheManager, service.id=144}
+  Registered by bundle: org.eclipse.equinox.p2.repository_2.1.0.v20110419-0147 [200]
+  No bundles using service.
+{org.eclipse.osgi.framework.console.CommandProvider}={service.id=145}
+  Registered by bundle: org.eclipse.equinox.p2.console_1.0.300.v20110404-2011 [182]
+  Bundles using service:
+    org.eclipse.osgi_3.7.0.v20110427 [0]
+{org.eclipse.equinox.p2.core.spi.IAgentServiceFactory}={component.name=org.eclipse.equinox.p2.director, component.id=9, p2.agent.servicename=org.eclipse.equinox.internal.provisional.p2.director.IDirector, service.id=146}
+  Registered by bundle: org.eclipse.equinox.p2.director_2.1.0.v20110222-0044 [184]
+  No bundles using service.
+{org.eclipse.equinox.p2.core.spi.IAgentServiceFactory}={component.name=org.eclipse.equinox.p2.planner, component.id=10, p2.agent.servicename=org.eclipse.equinox.p2.planner.IPlanner, service.id=147}
+  Registered by bundle: org.eclipse.equinox.p2.director_2.1.0.v20110222-0044 [184]
+  No bundles using service.
+{org.eclipse.equinox.p2.core.spi.IAgentServiceFactory}={component.name=org.eclipse.equinox.p2.transport.ecf, component.id=11, p2.agent.servicename=org.eclipse.equinox.internal.p2.repository.Transport, service.id=148}
+  Registered by bundle: org.eclipse.equinox.p2.transport.ecf_1.0.0.v20110419-0147 [204]
+  No bundles using service.
+{org.eclipse.equinox.p2.core.spi.IAgentServiceFactory}={component.name=org.eclipse.equinox.p2.engine.registry, component.id=12, p2.agent.servicename=org.eclipse.equinox.p2.engine.IProfileRegistry, service.id=149}
+  Registered by bundle: org.eclipse.equinox.p2.engine_2.1.0.v20110419-0147 [189]
+  Bundles using service:
+    org.eclipse.equinox.p2.core_2.1.0.v20110419-0147 [183]
+{org.eclipse.equinox.p2.core.spi.IAgentServiceFactory}={component.name=org.eclipse.equinox.p2.engine, component.id=13, p2.agent.servicename=org.eclipse.equinox.p2.engine.IEngine, service.id=150}
+  Registered by bundle: org.eclipse.equinox.p2.engine_2.1.0.v20110419-0147 [189]
+  No bundles using service.
+{org.eclipse.equinox.p2.core.spi.IAgentServiceFactory}={component.name=org.eclipse.equinox.p2.garbagecollector, component.id=14, p2.agent.servicename=org.eclipse.equinox.internal.p2.garbagecollector.GarbageCollector, service.id=151}
+  Registered by bundle: org.eclipse.equinox.p2.garbagecollector_1.0.200.v20110222-0044 [191]
+  No bundles using service.
+{org.eclipse.equinox.p2.core.spi.IAgentServiceFactory}={component.name=org.eclipse.equinox.p2.metadata.repository, component.id=15, p2.agent.servicename=org.eclipse.equinox.p2.repository.metadata.IMetadataRepositoryManager, service.id=152}
+  Registered by bundle: org.eclipse.equinox.p2.metadata.repository_1.2.0.v20110421 [194]
+  Bundles using service:
+    org.eclipse.equinox.p2.core_2.1.0.v20110419-0147 [183]
+{org.eclipse.equinox.p2.core.spi.IAgentServiceFactory}={component.name=org.eclipse.equinox.p2.updatechecker, component.id=16, p2.agent.servicename=org.eclipse.equinox.internal.provisional.p2.updatechecker.IUpdateChecker, service.id=153}
+  Registered by bundle: org.eclipse.equinox.p2.updatechecker_1.1.200.v20110222-0044 [205]
+  No bundles using service.
+{org.eclipse.equinox.internal.provisional.configuratormanipulator.ConfiguratorManipulator, org.eclipse.equinox.simpleconfigurator.manipulator.SimpleConfiguratorManipulator}={service.vendor=Eclipse.org, component.name=org.eclipse.equinox.simpleconfigurator.manipulator, component.id=17, org.eclipse.equinox.configurator.BundleSymbolicName=org.eclipse.equinox.simpleconfigurator, service.id=154}
+  Registered by bundle: org.eclipse.equinox.simpleconfigurator.manipulator_2.0.0.v20100920 [213]
+  No bundles using service.
+{java.lang.Object}={equinox.transformerType=xslt, service.id=155}
+  Registered by bundle: org.eclipse.equinox.transforms.xslt_1.0.200.v20100503 [216]
+  No bundles using service.
+{org.osgi.service.useradmin.UserAdmin}={service.description=OSGi User Admin service - IBM Implementation, service.pid=org.eclipse.equinox.internal.useradmin.Activator, service.vendor=IBM, service.id=156}
+  Registered by bundle: org.eclipse.equinox.useradmin_1.1.300.v20110413 [217]
+  No bundles using service.
+{org.osgi.service.useradmin.UserAdminListener}={service.id=157}
+  Registered by bundle: org.eclipse.equinox.useradmin_1.1.300.v20110413 [217]
+  Bundles using service:
+    org.eclipse.equinox.useradmin_1.1.300.v20110413 [217]
+{org.eclipse.equinox.service.weaving.IWeavingServiceFactory}={service.id=158}
+  Registered by bundle: org.eclipse.equinox.weaving.aspectj_1.0.1.v20100628 [219]
+  Bundles using service:
+    org.eclipse.osgi_3.7.0.v20110427 [0]
+{org.eclipse.equinox.service.weaving.ICachingServiceFactory}={service.id=159}
+  Registered by bundle: org.eclipse.equinox.weaving.caching_1.0.100.v20101208 [220]
+  Bundles using service:
+    org.eclipse.osgi_3.7.0.v20110427 [0]
+{org.osgi.service.cm.ManagedServiceFactory}={service.factoryPid=equinox.wireadmin.fpid, service.pid=equinox.wireadmin.fpid, service.id=160}
+  Registered by bundle: org.eclipse.equinox.wireadmin_1.0.300.v20101204 [222]
+  Bundles using service:
+    org.eclipse.equinox.cm_1.0.300.v20101204 [165]
+    org.eclipse.equinox.metatype_1.1.0.v20110411 [180]
+{org.osgi.service.wireadmin.WireAdmin}={service.factoryPid=equinox.wireadmin.fpid, service.pid=equinox.wireadmin.fpid, service.id=161}
+  Registered by bundle: org.eclipse.equinox.wireadmin_1.0.300.v20101204 [222]
+  No bundles using service.
+{org.osgi.service.wireadmin.WireAdminListener}={wireadmin.events=2147483647, service.id=162}
+  Registered by bundle: org.eclipse.equinox.wireadmin_1.0.300.v20101204 [222]
+  Bundles using service:
+    org.eclipse.equinox.wireadmin_1.0.300.v20101204 [222]
+{org.eclipse.jetty.server.Server}={jetty.port=8080, managedServerName=defaultJettyServer, jetty.etc.config.urls=bundleentry://236.fwk1984526644/jettyhome/etc/jetty-osgi-default.xml, service.id=163}
+  Registered by bundle: org.eclipse.jetty.osgi.boot_7.4.0.v20110414 [236]
+  Bundles using service:
+    org.eclipse.jetty.osgi.boot_7.4.0.v20110414 [236]
+{org.osgi.service.url.URLStreamHandlerService}={url.handler.protocol=[war], service.id=164}
+  Registered by bundle: org.eclipse.jetty.osgi.boot.warurl_7.4.0.v20110414 [239]
+  Bundles using service:
+    org.eclipse.osgi_3.7.0.v20110427 [0]
+{org.eclipse.jetty.server.handler.ContextHandler}={unknownContextHandlerType=true, contextFilePath=contexts/httpservice.xml, service.id=165}
+  Registered by bundle: org.eclipse.jetty.osgi.httpservice_7.4.0.v20110414 [240]
+  Bundles using service:
+    org.eclipse.jetty.osgi.boot_7.4.0.v20110414 [236]
+{org.osgi.service.http.HttpService, org.eclipse.equinox.http.servlet.ExtendedHttpService}={service.description=Equinox Servlet Bridge, service.vendor=Eclipse.org, service.id=166}
+  Registered by bundle: org.eclipse.equinox.http.servlet_1.1.200.v20110321 [175]
+  Bundles using service:
+    org.eclipse.equinox.http.registry_1.1.100.v20101101 [174]
+    org.eclipse.equinox.ip_1.1.200.v20101204 [178]
+{org.codehaus.stax2.osgi.Stax2InputFactoryProvider}={org.codehaus.stax2.implName=woodstox, org.codehaus.stax2.implVersion=4.0, service.id=167}
+  Registered by bundle: woodstox-core-asl_4.0.8 [277]
+  No bundles using service.
+{org.codehaus.stax2.osgi.Stax2OutputFactoryProvider}={org.codehaus.stax2.implName=woodstox, org.codehaus.stax2.implVersion=4.0, service.id=168}
+  Registered by bundle: woodstox-core-asl_4.0.8 [277]
+  No bundles using service.
+{org.codehaus.stax2.osgi.Stax2ValidationSchemaFactoryProvider}={org.codehaus.stax2.implName=woodstox, org.codehaus.stax2.implVersion=4.0, org.codehaus.stax2.validation.schemaType=http://www.w3.org/XML/1998/namespace, service.id=169}
+  Registered by bundle: woodstox-core-asl_4.0.8 [277]
+  No bundles using service.
+{org.codehaus.stax2.osgi.Stax2ValidationSchemaFactoryProvider}={org.codehaus.stax2.implName=woodstox, org.codehaus.stax2.implVersion=4.0, org.codehaus.stax2.validation.schemaType=http://relaxng.org/ns/structure/0.9, service.id=170}
+  Registered by bundle: woodstox-core-asl_4.0.8 [277]
+  No bundles using service.
+{org.codehaus.stax2.osgi.Stax2ValidationSchemaFactoryProvider}={org.codehaus.stax2.implName=woodstox, org.codehaus.stax2.implVersion=4.0, org.codehaus.stax2.validation.schemaType=http://www.w3.org/2001/XMLSchema, service.id=171}
+  Registered by bundle: woodstox-core-asl_4.0.8 [277]
+  No bundles using service.
+{org.eclipse.osgi.framework.console.CommandProvider}={service.id=172}
+  Registered by bundle: net.luminis.cmc_0.2.5 [280]
+  Bundles using service:
+    org.eclipse.osgi_3.7.0.v20110427 [0]
+{org.ops4j.pax.configmanager.IConfigurationFileHandler}={service.id=173}
+  Registered by bundle: org.ops4j.pax.configmanager_0.2.2 [281]
+  Bundles using service:
+    org.ops4j.pax.configmanager_0.2.2 [281]
+{org.osgi.service.provisioning.ProvisioningService}={Vendor=ProSyst, provisioning.update.count=0, service.id=174}
+  Registered by bundle: org.eclipse.equinox.ip_1.1.200.v20101204 [178]
+  No bundles using service.
+{org.osgi.service.component.ComponentFactory}={component.factory=com.IFOO, component.name=com.github.elyast.lemac.core, service.id=176}
+  Registered by bundle: com.github.elyast.lemac.core_1.0.0.qualifier [279]
+  No bundles using service.
+{org.eclipse.osgi.service.runnable.StartupMonitor}={service.ranking=-2147483648, service.id=1}
+  Registered by bundle: org.eclipse.osgi_3.7.0.v20110427 [0]
+  No bundles using service.
+{org.eclipse.osgi.framework.log.FrameworkLog}={service.ranking=-2147483648, performance=true, service.pid=46org.eclipse.core.runtime.internal.adaptor.EclipseLogFactory$1, service.vendor=Eclipse.org - Equinox, service.id=12}
+  Registered by bundle: org.eclipse.osgi_3.7.0.v20110427 [0]
+  Bundles using service:
+    org.eclipse.equinox.app_1.3.100.v20110321 [164]
+    org.eclipse.core.databinding.observable_1.4.0.I20110222-0800 [144]
+    org.eclipse.core.databinding_1.4.0.I20110111-0800 [143]
+    org.eclipse.core.net_1.2.100.I20110419-0800 [150]
+    org.eclipse.equinox.common_3.6.0.v20110427 [166]
+    org.eclipse.equinox.transforms.xslt_1.0.200.v20100503 [216]
+{org.eclipse.osgi.service.security.TrustEngine}={service.ranking=-2147483648, osgi.signedcontent.trust.engine=org.eclipse.osgi, service.id=26}
+  Registered by bundle: org.eclipse.osgi_3.7.0.v20110427 [0]
+  No bundles using service.
+
+osgi> 

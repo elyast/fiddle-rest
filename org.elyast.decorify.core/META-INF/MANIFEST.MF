@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Core
+Bundle-SymbolicName: org.elyast.decorify.core
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: GITHUB
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Service-Component: OSGI-INF/*.xml
+Import-Package: org.elyast.decorify.core,
+ org.osgi.framework;version="[1.6,2.0)",
+ org.osgi.util.tracker;version="[1.5,2.0)",
+ org.slf4j;version="[1.6,1.7)"
+Export-Package: org.elyast.decorify.core;version="1.0.0";uses:="org.osgi.framework"

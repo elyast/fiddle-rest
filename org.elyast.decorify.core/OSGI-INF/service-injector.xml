@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" enabled="true" immediate="true" name="com.github.elyast.decorify.core.injector">
+   <implementation class="com.github.elyast.guids.core.internal.ServiceInjector"/>
+   <reference bind="register" cardinality="0..n" interface="org.elyast.decorify.core.ServiceDecorator" name="ServiceDecorator" policy="dynamic" target="(filter=*)" unbind="unregister"/>
+</scr:component>

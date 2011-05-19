@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" immediate="true" name="org.elyast.decorify.http">
+   <implementation class="org.elyast.decorify.http.RestServicesDecorator"/>
+   <property name="filter" type="String" value="(&amp;(service.exported.interfaces=*) (service.exported.configs=*))"/>
+   <service>
+      <provide interface="org.elyast.decorify.core.ServiceDecorator"/>
+   </service>
+   <reference bind="bind" cardinality="1..1" interface="org.elyast.decorify.camel.BindableCamelContext" name="BindableCamelContext" policy="static" unbind="unbind"/>
+</scr:component>
