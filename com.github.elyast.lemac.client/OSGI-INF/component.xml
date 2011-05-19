@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="com.github.elyast.lemac.client">
-   <implementation class="com.github.elyast.lemac.client.SimpleService"/>
-   <property name="service.exported.interfaces" type="String" value="*"/>
-   <service>
-      <provide interface="com.github.elyast.lemac.client.SimpleSimpleService"/>
-   </service>
-</scr:component>
