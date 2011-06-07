@@ -1,10 +1,22 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.github.elyast.lemac</groupId>
-  <artifactId>lemac</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+
+		<artifactId>sppaclet</artifactId>
+		<groupId>org.elyast.sppaclet</groupId>
+		<version>1.0.0-SNAPSHOT</version>
+
   <packaging>pom</packaging>
   <modules>
-  	<module>lemac-parent</module>
+  	<module>sppaclet-parent</module>
+    <module>org.elyast.decorify.core</module>
+	<module>org.elyast.decorify.core.tests</module>
+	<module>org.elyast.decorify.camel</module>
+	<module>org.elyast.decorify.http</module>
+	<module>org.elyast.decorify.guice</module>
+	<module>org.elyast.decorify.integration.tests</module>
+	<module>org.elyast.decorify.client</module>
+	<module>org.elyast.sppaclet.jetty.feature</module>
+	<module>org.elyast.sppaclet.camel.feature</module>
+	<module>org.elyast.sppaclet.runtime.feature</module>	
   </modules>
 </project>
