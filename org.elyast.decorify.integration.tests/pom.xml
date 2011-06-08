@@ -9,4 +9,47 @@
 	</parent>
 	<artifactId>org.elyast.decorify.integration.tests</artifactId>
 	<packaging>eclipse-test-plugin</packaging>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-surefire-plugin</artifactId>
+				<configuration>
+					<bundleStartLevel>
+						<bundle>
+							<id>org.eclipse.equinox.ds</id>
+							<level>1</level>
+							<autoStart>true</autoStart>
+						</bundle>
+						<bundle>
+							<id>org.elyast.decorify.core</id>
+							<level>4</level>
+							<autoStart>true</autoStart>
+						</bundle>
+						<bundle>
+							<id>org.elyast.decorify.http</id>
+							<level>4</level>
+							<autoStart>true</autoStart>
+						</bundle>
+						<bundle>
+							<id>org.elyast.decorify.camel</id>
+							<level>4</level>
+							<autoStart>true</autoStart>
+						</bundle>
+						<bundle>
+							<id>org.elyast.decorify.guice</id>
+							<level>4</level>
+							<autoStart>true</autoStart>
+						</bundle>
+						<bundle>
+							<id>org.elyast.decorify.client</id>
+							<level>4</level>
+							<autoStart>true</autoStart>
+						</bundle>
+					</bundleStartLevel>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="com.github.elyast.lemac.camel.feature"
+      id="org.elyast.sppaclet.camel.feature"
       label="Lemac Camel Feature"
       version="1.0.0.qualifier"
       provider-name="GITHUB">
@@ -18,7 +18,7 @@
    </license>
 
    <requires>
-      <import feature="com.github.elyast.lemac.jetty.feature" version="1.0.0.qualifier"/>
+      <import feature="org.elyast.sppaclet.jetty.feature" version="1.0.0.qualifier"/>
       <import plugin="org.apache.servicemix.bundles.abdera"/>
       <import plugin="org.slf4j.api"/>
       <import plugin="org.eclipse.osgi"/>

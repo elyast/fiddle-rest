@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="com.github.elyast.lemac.runtime.feature"
-      label="Lemac Runtime Feature"
+      id="org.elyast.sppaclet.runtime.feature"
+      label="Sppaclet Runtime Feature"
       version="1.0.0.qualifier"
       provider-name="GITHUB">
 
@@ -18,11 +18,11 @@
    </license>
 
    <includes
-         id="com.github.elyast.lemac.camel.feature"
+         id="org.elyast.sppaclet.camel.feature"
          version="0.0.0"/>
 
    <includes
-         id="com.github.elyast.lemac.jetty.feature"
+         id="org.elyast.sppaclet.jetty.feature"
          version="0.0.0"/>
 
    <requires>
@@ -38,12 +38,5 @@
       <import plugin="org.slf4j.api"/>
       <import plugin="org.springframework.beans"/>
    </requires>
-
-   <plugin
-         id="com.github.elyast.lemac.core"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
 
 </feature>
