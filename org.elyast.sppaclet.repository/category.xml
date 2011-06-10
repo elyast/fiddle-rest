@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.elyast.sppaclet.camel.feature_1.0.0.qualifier.jar" id="org.elyast.sppaclet.camel.feature" version="1.0.0.qualifier">
+      <category name="sppaclet_features"/>
+   </feature>
+   <feature url="features/org.elyast.sppaclet.jetty.feature_1.0.0.qualifier.jar" id="org.elyast.sppaclet.jetty.feature" version="1.0.0.qualifier">
+      <category name="sppaclet_features"/>
+   </feature>
+   <feature url="features/org.elyast.sppaclet.runtime.feature_1.0.0.qualifier.jar" id="org.elyast.sppaclet.runtime.feature" version="1.0.0.qualifier">
+      <category name="sppaclet_features"/>
+   </feature>
+   <feature url="features/org.elyast.decorify.feature_1.0.0.qualifier.jar" id="org.elyast.decorify.feature" version="1.0.0.qualifier">
+      <category name="sppaclet_features"/>
+   </feature>
+   <category-def name="sppaclet_features" label="Sppaclet Features"/>
+</site>

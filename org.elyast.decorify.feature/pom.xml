@@ -7,7 +7,6 @@
 		<artifactId>sppaclet-parent</artifactId>
 		<relativePath>../sppaclet-parent</relativePath>
 	</parent>
-	<artifactId>org.elyast.decorify.http</artifactId>
-	<packaging>eclipse-plugin</packaging>
-
+	<artifactId>org.elyast.decorify.feature</artifactId>
+	<packaging>eclipse-feature</packaging>
 </project>
