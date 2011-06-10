@@ -17,6 +17,8 @@
 	<module>org.elyast.decorify.client</module>
 	<module>org.elyast.sppaclet.jetty.feature</module>
 	<module>org.elyast.sppaclet.camel.feature</module>
-	<module>org.elyast.sppaclet.runtime.feature</module>	
+	<module>org.elyast.sppaclet.runtime.feature</module>
+	<module>org.elyast.decorify.feature</module>
+	<module>org.elyast.sppaclet.repository</module>	
   </modules>
 </project>
