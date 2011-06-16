@@ -21,7 +21,7 @@
       <import plugin="org.apache.camel.camel-core"/>
       <import plugin="org.apache.camel.camel-http"/>
       <import plugin="org.apache.camel.camel-servlet"/>
-      <import plugin="org.apache.camel.core.osgi"/>
+      <import plugin="org.apache.camel.camel-core-osgi"/>
       <import plugin="org.eclipse.osgi"/>
       <import plugin="org.eclipse.osgi.services"/>
       <import plugin="org.slf4j.api"/>
