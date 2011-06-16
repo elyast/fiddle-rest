@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pde version="3.5"?>
+
+<product uid="org.elyast.sppaclet.rocker" version="1.0.0.qualifier" useFeatures="true" includeLaunchers="true">
+
+
+   <configIni use="default">
+   </configIni>
+
+   <launcherArgs>
+      <programArgs>-consoleLog -console</programArgs>
+      <vmArgs>-Declipse.ignoreApp=true -Dosgi.noShutdown=true -Djetty.home.bundle=org.eclipse.jetty.osgi.boot -Djetty.port=8080 -Dlogback.configurationFile=logback.xml -Dosgi.framework.extensions=org.eclipse.equinox.weaving.hook -Daj.weaving.verbose=true -Dorg.aspectj.weaver.showWeaveInfo=true -Dorg.aspectj.osgi.verbose=true -Xmx1024M</vmArgs>
+   </launcherArgs>
+
+   <features>
+      <feature id="org.elyast.sppaclet.jetty.feature" version="1.0.0.qualifier"/>
+   </features>
+
+   <configurations>
+      <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="0" />
+      <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.ds" autoStart="true" startLevel="1" />
+      <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
+      <plugin id="org.eclipse.jetty.annotations" autoStart="true" startLevel="0" />
+      <plugin id="org.eclipse.jetty.client" autoStart="false" startLevel="0" />
+      <plugin id="org.eclipse.jetty.continuation" autoStart="false" startLevel="0" />
+      <plugin id="org.eclipse.jetty.deploy" autoStart="false" startLevel="0" />
+      <plugin id="org.eclipse.jetty.http" autoStart="false" startLevel="0" />
+      <plugin id="org.eclipse.jetty.io" autoStart="false" startLevel="0" />
+      <plugin id="org.eclipse.jetty.jaspi" autoStart="false" startLevel="0" />
+      <plugin id="org.eclipse.jetty.jmx" autoStart="false" startLevel="0" />
+      <plugin id="org.eclipse.jetty.jndi" autoStart="false" startLevel="0" />
+      <plugin id="org.eclipse.jetty.nested" autoStart="false" startLevel="0" />
+      <plugin id="org.eclipse.jetty.osgi.boot" autoStart="false" startLevel="0" />
+      <plugin id="org.eclipse.jetty.osgi.boot.warurl" autoStart="false" startLevel="0" />
+      <plugin id="org.eclipse.jetty.osgi.httpservice" autoStart="false" startLevel="0" />
+      <plugin id="org.eclipse.jetty.plus" autoStart="false" startLevel="0" />
+      <plugin id="org.eclipse.jetty.rewrite" autoStart="false" startLevel="0" />
+      <plugin id="org.eclipse.jetty.security" autoStart="false" startLevel="0" />
+      <plugin id="org.eclipse.jetty.server" autoStart="false" startLevel="0" />
+      <plugin id="org.eclipse.jetty.servlet" autoStart="false" startLevel="0" />
+      <plugin id="org.eclipse.jetty.servlets" autoStart="false" startLevel="0" />
+      <plugin id="org.eclipse.jetty.util" autoStart="false" startLevel="0" />
+      <plugin id="org.eclipse.jetty.webapp" autoStart="false" startLevel="0" />
+      <plugin id="org.eclipse.jetty.websocket" autoStart="false" startLevel="0" />
+      <plugin id="org.eclipse.jetty.xml" autoStart="false" startLevel="0" />
+      <plugin id="org.eclipse.osgi" autoStart="true" startLevel="-1" />
+   </configurations>
+
+</product>

@@ -13,7 +13,8 @@ public class Application implements IApplication {
 	 */
 	public Object start(IApplicationContext context) throws Exception {
 		System.out.println("Hello RCP World!");
-		return IApplication.EXIT_OK;
+		while(true);
+//		return IApplication.EXIT_OK;
 	}
 
 	/* (non-Javadoc)

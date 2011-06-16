@@ -25,6 +25,18 @@
          id="org.elyast.sppaclet.jetty.feature"
          version="0.0.0"/>
 
+   <includes
+         id="com.google.guice.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="orbit.utils.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.datanucleus.core.feature"
+         version="0.0.0"/>
+
    <requires>
       <import plugin="org.apache.camel.camel-core" version="2.7.0" match="greaterOrEqual"/>
       <import plugin="org.apache.camel.camel-http" version="2.7.0" match="greaterOrEqual"/>

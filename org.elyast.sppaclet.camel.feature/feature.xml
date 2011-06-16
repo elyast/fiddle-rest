@@ -17,13 +17,24 @@
       [Enter License Description here.]
    </license>
 
+   <includes
+         id="org.apache.camel.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.codehaus.jackson.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.springframework.feature"
+         version="0.0.0"/>
+
    <requires>
       <import feature="org.elyast.sppaclet.jetty.feature" version="1.0.0.qualifier"/>
       <import plugin="org.apache.servicemix.bundles.abdera"/>
       <import plugin="org.slf4j.api"/>
       <import plugin="org.eclipse.osgi"/>
       <import plugin="org.apache.servicemix.bundles.ehcache"/>
-      <import plugin="commons-management"/>
       <import plugin="org.springframework.context"/>
       <import plugin="org.apache.xalan"/>
       <import plugin="org.apache.commons.codec"/>
@@ -380,6 +391,13 @@
 
    <plugin
          id="org.apache.camel.camel-core-osgi"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="commons-management"
          download-size="0"
          install-size="0"
          version="0.0.0"
