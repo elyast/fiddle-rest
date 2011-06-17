@@ -15,10 +15,12 @@
 	<module>org.elyast.decorify.guice</module>
 	<module>org.elyast.decorify.integration.tests</module>
 	<module>org.elyast.decorify.client</module>
+	<module>org.elyast.sppaclet.product</module>
 	<module>org.elyast.sppaclet.jetty.feature</module>
 	<module>org.elyast.sppaclet.camel.feature</module>
 	<module>org.elyast.decorify.feature</module>	
-	<module>org.elyast.sppaclet.runtime.feature</module>	
-	<module>org.elyast.sppaclet.repository</module>	
+	<module>org.elyast.sppaclet.runtime.feature</module>		
+	<module>org.elyast.sppaclet.repository</module>
+	<module>org.elyast.sppaclet.functional.tests</module>	
   </modules>
 </project>
