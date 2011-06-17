@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product uid="org.elyast.sppaclet.rt" version="1.0.0.qualifier" useFeatures="true" includeLaunchers="true">
-
+<product uid="org.elyast.sppaclet.rte" id="org.elyast.sppaclet.product" version="1.0.0.qualifier" useFeatures="true" includeLaunchers="true">
 
    <configIni use="default">
    </configIni>
@@ -12,6 +11,9 @@
       <vmArgs>-Declipse.ignoreApp=true -Dosgi.noShutdown=true -Djetty.home=. -Dosgi.framework.extensions=org.eclipse.equinox.weaving.hook -Daj.weaving.verbose=true -Dorg.aspectj.weaver.showWeaveInfo=true -Dorg.aspectj.osgi.verbose=true -Xmx1024M</vmArgs>
       <vmArgsMac>-Djetty.home=../../.. -Dlogback.configurationFile=../../../etc/logback.xml -XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts</vmArgsMac>
    </launcherArgs>
+
+   <plugins>
+   </plugins>
 
    <features>
       <feature id="org.elyast.sppaclet.jetty.feature" version="1.0.0.qualifier"/>
