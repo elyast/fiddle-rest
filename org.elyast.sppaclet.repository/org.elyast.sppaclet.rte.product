@@ -8,9 +8,19 @@
 
    <launcherArgs>
       <programArgs>-consoleLog -console</programArgs>
-      <vmArgs>-Declipse.ignoreApp=true -Dosgi.noShutdown=true -Djetty.home=. -Dosgi.framework.extensions=org.eclipse.equinox.weaving.hook -Daj.weaving.verbose=true -Dorg.aspectj.weaver.showWeaveInfo=true -Dorg.aspectj.osgi.verbose=true -Xmx1024M</vmArgs>
+      <vmArgs>-Declipse.ignoreApp=true -Dosgi.noShutdown=true -Djetty.home=. -Dlogback.configurationFile=etc/logback.xml -Dosgi.framework.extensions=org.eclipse.equinox.weaving.hook -Daj.weaving.verbose=true -Dorg.aspectj.weaver.showWeaveInfo=true -Dorg.aspectj.osgi.verbose=true -Xmx1024M</vmArgs>
       <vmArgsMac>-Djetty.home=../../.. -Dlogback.configurationFile=../../../etc/logback.xml -XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts</vmArgsMac>
    </launcherArgs>
+
+   <launcher>
+      <solaris/>
+      <win useIco="false">
+         <bmp/>
+      </win>
+   </launcher>
+
+   <vm>
+   </vm>
 
    <plugins>
    </plugins>
@@ -21,6 +31,7 @@
 
    <configurations>
       <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="4" />
       <plugin id="org.eclipse.equinox.ds" autoStart="true" startLevel="2" />
       <plugin id="org.eclipse.equinox.frameworkadmin.equinox" autoStart="true" startLevel="3" />
       <plugin id="org.eclipse.equinox.p2.console" autoStart="true" startLevel="3" />

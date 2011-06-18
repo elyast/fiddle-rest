@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde version="3.6"?>
 
-<target name="remote" sequenceNumber="37">
+<target name="remote" sequenceNumber="38">
 <locations>
 <location includeAllPlatforms="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="com.google.guava.runtime.feature.feature.group" version="9.0.0"/>
@@ -18,19 +18,19 @@
 <repository location="http://download.eclipse.org/tools/ajdt/37/dev/update"/>
 </location>
 <location includeAllPlatforms="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="org.apache.camel.feature.feature.group" version="1.0.0.201106141910"/>
-<unit id="org.datanucleus.core.feature.feature.group" version="1.0.0.201106141910"/>
-<unit id="com.google.guice.feature.feature.group" version="1.0.0.201106141910"/>
-<unit id="org.codehaus.jackson.feature.feature.group" version="1.0.0.201106141910"/>
-<unit id="org.springframework.feature.feature.group" version="1.0.0.201106141910"/>
-<unit id="orbit.utils.feature.feature.group" version="1.0.0.201106141910"/>
-<repository location="http://eliot-projects.googlecode.com/svn/p2/orbit"/>
-</location>
-<location includeAllPlatforms="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="javax.xml.ws" version="2.1.0.v200902101523"/>
 <unit id="javax.jws" version="2.0.0.v201005080400"/>
 <unit id="org.apache.ws.commons.util" version="1.0.1.v20100518-1140"/>
 <repository location="http://download.eclipse.org/tools/orbit/downloads/drops/R20110523182458/repository/"/>
+</location>
+<location includeAllPlatforms="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.apache.camel.feature.feature.group" version="1.0.0.201106161935"/>
+<unit id="org.datanucleus.core.feature.feature.group" version="1.0.0.201106161935"/>
+<unit id="com.google.guice.feature.feature.group" version="1.0.0.201106161935"/>
+<unit id="org.codehaus.jackson.feature.feature.group" version="1.0.0.201106161935"/>
+<unit id="org.springframework.feature.feature.group" version="1.0.0.201106161935"/>
+<unit id="orbit.utils.feature.feature.group" version="1.0.0.201106161935"/>
+<repository location="http://eliot-projects.googlecode.com/svn/p2/orbit"/>
 </location>
 </locations>
 </target>

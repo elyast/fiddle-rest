@@ -9,16 +9,44 @@
 	</parent>
 	<artifactId>org.elyast.sppaclet.functional.tests</artifactId>
 	<packaging>eclipse-test-plugin</packaging>
+
+	<repositories>
+		<repository>
+			<id>elyast-sppaclet</id>
+			<layout>p2</layout>
+			<url>jar:file:${user.home}/.m2/repository/org/elyast/sppaclet/org.elyast.sppaclet.repository/${project.version}/org.elyast.sppaclet.repository-${project.version}.zip!/</url>
+		</repository>
+	</repositories>
+
 	<build>
 		<plugins>
+
 			<plugin>
 				<groupId>org.eclipse.tycho</groupId>
 				<artifactId>tycho-surefire-plugin</artifactId>
 				<configuration>
-					<product>
-						org.elyast.sppaclet.product
-					</product>
-					<showEclipseLog>true</showEclipseLog>
+					<!-- need to repeat yourself with data from config -->
+					<argLine>-Djetty.home=${basedir}/jettyhome -Dlogback.configurationFile=${basedir}/jettyhome/etc/logback.xml -Dosgi.framework.extensions=org.eclipse.equinox.weaving.hook -Daj.weaving.verbose=true -Dorg.aspectj.weaver.showWeaveInfo=true -Dorg.aspectj.osgi.verbose=true -Xmx1024M</argLine>
+					<dependencies>
+						<dependency>
+							<type>p2-installable-unit</type>
+							<artifactId>org.elyast.sppaclet.rte</artifactId>
+							<version>[1.0.0,1.1.0)</version>
+						</dependency>
+					</dependencies>
+					<bundleStartLevel>
+						<bundle>
+							<!-- need to repeat yourself with bundle autostart -->
+							<id>org.eclipse.jetty.osgi.boot</id>
+							<level>3</level>
+							<autoStart>true</autoStart>
+						</bundle>
+						<bundle>
+							<id>org.eclipse.jetty.osgi.httpservice</id>
+							<level>4</level>
+							<autoStart>true</autoStart>
+						</bundle>
+					</bundleStartLevel>
 				</configuration>
 			</plugin>
 		</plugins>
