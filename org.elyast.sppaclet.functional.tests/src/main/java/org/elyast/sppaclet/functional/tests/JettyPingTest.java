@@ -17,29 +17,12 @@ import org.apache.http.conn.scheme.Scheme;
 import org.apache.http.conn.scheme.SchemeRegistry;
 import org.apache.http.conn.ssl.SSLSocketFactory;
 import org.apache.http.impl.client.DefaultHttpClient;
-import org.junit.Before;
 import org.junit.Test;
-import org.osgi.framework.Bundle;
-import org.osgi.framework.BundleContext;
 
 public class JettyPingTest {
 
-	@Before
-	public void setup() {
-		BundleContext context = Activator.getContext();
-		Bundle[] bundles = context.getBundles();
-		for (Bundle bundle : bundles) {
-			if (!(bundle.getState() == Bundle.ACTIVE || bundle
-					.getSymbolicName().startsWith("org.eclipse.jetty"))) {
-				continue;
-			}
-			System.out.println(bundle.getSymbolicName() + " "
-					+ bundle.getState());
-		}
-	}
-
-	@Test
 	public void shouldResponseWith404_WhenAskForSslUrl() throws Exception {
+		System.out.println("shouldResponseWith404_WhenAskForSslUrl");
 		HttpClient client = wrapClient(new DefaultHttpClient());
 		HttpGet httpget = new HttpGet("https://localhost:8443/Something");
 
@@ -52,6 +35,7 @@ public class JettyPingTest {
 
 	@Test
 	public void shouldResponseWith404_WhenAskForHttpUrl() throws Exception {
+		System.out.println("shouldResponseWith404_WhenAskForHttpUrl");
 		DefaultHttpClient client = new DefaultHttpClient();
 		HttpGet httpget = new HttpGet("http://localhost:8080/Something");
 
@@ -62,6 +46,7 @@ public class JettyPingTest {
 		assertEquals(404, resp.getStatusLine().getStatusCode());
 	}
 
+	@SuppressWarnings("deprecation")
 	public static HttpClient wrapClient(HttpClient base) {
 		try {
 			SSLContext ctx = SSLContext.getInstance("TLS");
